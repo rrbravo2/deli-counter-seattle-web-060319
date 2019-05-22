@@ -8,7 +8,7 @@ def line(array)
  end# Write your code here.
   puts "The line is currently:#{current_line}"
  end
-end 
+end
 
 def take_a_number(array, name)
  array << name
