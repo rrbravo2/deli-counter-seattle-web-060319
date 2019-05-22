@@ -5,7 +5,7 @@ def line(array)
    current_line = ""
    array.each_with_index do |name, index|
      current_line << "#{index + 1}. #{name}"
- end# Write your code here.
+ end
   puts "The line is currently: #{current_line}"
  end
 end
